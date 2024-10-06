@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,9 +27,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+        className={`${geistSans.variable} ${geistMono.variable} max-w-[2000px] mx-auto`}>
+        <ActiveSectionContextProvider>{children}</ActiveSectionContextProvider>
       </body>
     </html>
   );

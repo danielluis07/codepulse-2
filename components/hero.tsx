@@ -24,13 +24,14 @@ export const Hero = () => {
         {/* title */}
         <div className="basis-full text-white space-y-5">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            Somos uma Agência que Cria Sites e Estratégias de Marketing para
-            Pequenos Negócios Atraírem Mais Clientes e Aumentarem Suas Vendas
+            Estratégias de marketing para pequenos negócios atraírem mais
+            clientes e aumentarem as vendas
           </h1>
           <h2>
-            Impulsionamos Pequenos Negócios com Estratégias que Geram Resultados
-            Reais. Sites que Engajam e Marketing que Gera Resultados, Feitos
-            para o Sucesso de sua empresa.
+            Impulsionamos pequenos negócios com estratégias que geram resultados
+            reais. Criamos sites envolventes e campanhas de marketing que
+            impulsionam o crescimento da sua empresa, focados no sucesso do seu
+            negócio.
           </h2>
           <button className="py-3 px-5 rounded-xl bg-[#2dde98]">
             Entre em contato

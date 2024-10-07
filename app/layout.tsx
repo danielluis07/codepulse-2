@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-MVMDSZ7W" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} max-w-[2000px] mx-auto`}>
         <ActiveSectionContextProvider>{children}</ActiveSectionContextProvider>

@@ -108,7 +108,7 @@ const cardVariants = {
 
 export const Cards = () => {
   return (
-    <div className="w-full mt-36">
+    <div className="w-full mt-36" id="servicos">
       <h1 className="text-3xl font-bold gradient-text text-center">
         Nossos Serviços
       </h1>

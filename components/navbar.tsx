@@ -24,7 +24,9 @@ export const Navbar = () => {
           ))}
         </div>
         {/* whats */}
-        <FaWhatsapp className="text-4xl text-green-500" />
+        <a href="https://whatsa.me/5547988744602" aria-label="WhatsApp">
+          <FaWhatsapp className="text-4xl text-green-500" />
+        </a>
       </div>
     </div>
   );

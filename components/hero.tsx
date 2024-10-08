@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import hero from "@/public/hero.png";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -27,15 +28,17 @@ export const Hero = () => {
             Estratégias de marketing para pequenos negócios atraírem mais
             clientes e aumentarem as vendas
           </h1>
-          <h2>
+          <h2 className="pb-3">
             Impulsionamos pequenos negócios com estratégias que geram resultados
             reais. Criamos sites envolventes e campanhas de marketing que
             impulsionam o crescimento da sua empresa, focados no sucesso do seu
             negócio.
           </h2>
-          <button className="py-3 px-5 rounded-xl bg-[#2dde98]">
-            Entre em contato
-          </button>
+          <Link href="#contact">
+            <button className="py-3 px-5 rounded-xl bg-[#2dde98]">
+              Entre em contato
+            </button>
+          </Link>
         </div>
         {/* image */}
         <div className="basis-full maxlg:hidden">

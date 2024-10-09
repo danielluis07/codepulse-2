@@ -35,7 +35,9 @@ export const Hero = () => {
             negócio.
           </h2>
           <Link href="#contact">
-            <button className="py-3 px-5 rounded-xl bg-[#2dde98]">
+            <button
+              id="contact_button"
+              className="py-3 px-5 rounded-xl bg-[#2dde98]">
               Entre em contato
             </button>
           </Link>
